@@ -1,12 +1,16 @@
 {
-  "name": "js",
+  "dependencies": {
+    "md5": "^2.3.0"
+  },
+  "name": "Tom",
   "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
+  "main": "server.js",
+  "devDependencies": {},
   "scripts": {
-    "start": "node server.js"
+    "start": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }
