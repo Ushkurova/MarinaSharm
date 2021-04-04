@@ -1,0 +1,97 @@
+html, body{
+    height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.left-col{
+    position: fixed;
+    width: 30%;
+    height: 100%;
+    background-color: #222629;
+}
+
+.container-img {
+    opacity: .5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.container-img h3, .container-img p {
+    text-align: right;
+    color: #fff;
+}
+
+.container-img h3{
+    margin: 8px, 0;
+    font-weight: bold;
+}
+
+.container-img p{
+    font-size: 50%;
+    color: rgba(255,255,255, 0.5)
+}
+
+.container-menu li i{
+    color: #fff;
+}
+
+.container-menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container-menu li{
+  
+    transition: .1s;
+}
+
+.container-menu a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+      padding: 20px;
+}
+.container-menu li : hover{
+    background-color: rgba(0,0,0, .8);
+}
+
+.social-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-container a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 0 20px;
+
+}
+
+
+.social-container i{
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
