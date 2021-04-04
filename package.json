@@ -1,16 +1,20 @@
 {
-  "dependencies": {
-    "md5": "^2.3.0"
-  },
-  "name": "Tom",
+  "name": "MarinaSharm",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
-  "devDependencies": {},
   "scripts": {
-    "start": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ushkurova/MarinaSharm.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/Ushkurova/MarinaSharm/issues"
+  },
+  "homepage": "https://github.com/Ushkurova/MarinaSharm#readme"
 }
