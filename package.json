@@ -1,11 +1,11 @@
 {
-  "name": "MarinaSharm",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
+  "name": "MarinaSharm",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ushkurova/MarinaSharm.git"

@@ -5,7 +5,7 @@ const fs = require('fs');
 const server = http.createServer(function(request, response){
     console.log(request.method, request.url);
 
-    var text = fs.readFileSync('index.html');
+    var text = fs.readFileSync('index.html', 'utf8');
 
     switch(request.url)
         {
@@ -13,13 +13,13 @@ const server = http.createServer(function(request, response){
                 text = fs.readFileSync('assets/images/Marina.PNG');
                 break;
             case '/assets/css/main2.css': 
-                text = fs.readFileSync('assets/css/main2.css');
+                text = fs.readFileSync('assets/css/main2.css', 'utf8');
                 break;
            case '/assets/css/reset.css': 
-                text = fs.readFileSync('assets/css/reset.css');
+                text = fs.readFileSync('assets/css/reset.css', 'utf8');
                 break;
             case '/assets/js/main.js': 
-                text = fs.readFileSync('assets/js/main.js');
+                text = fs.readFileSync('assets/js/main.js', 'utf8');
                 break;
                 
         }
@@ -28,4 +28,3 @@ const server = http.createServer(function(request, response){
 
 console.log('port = ', process.env.PORT);
 server.listen(3000 || process.env.PORT);
-console.log('Server started!');
