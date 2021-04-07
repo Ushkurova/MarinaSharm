@@ -5,6 +5,7 @@ const fs = require('fs');
 const server = http.createServer(function(request, response){
     console.log(request.method, request.url);
 
+
     var text = fs.readFileSync('index.html', 'utf8');
 
     switch(request.url)
@@ -27,4 +28,5 @@ const server = http.createServer(function(request, response){
 });
 
 console.log('port = ', process.env.PORT);
-server.listen(3000 || process.env.PORT);
+var port = 3000;
+server.listen(process.env.PORT || port);
